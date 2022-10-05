@@ -1,0 +1,5 @@
+Daemonset ensures one copy of pod is working on every worker node. Daemossets are 
+typically used  to run applications like logging , statistics collections  and storage like applications. 
+Such applications are required to be run  on every worker node.
+
+Replicaset on other had runs replicas of an application and maintains the number of replicas all the time.
