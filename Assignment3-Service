@@ -1,0 +1,12 @@
+check if service is  accessible using  pod-ip:port
+check if service is accessible using service-ip:port 
+
+Check if service exists. check the port to nodePort mappings. 
+Run kubectl get svc <servicename>
+
+Check if EP is correct.
+run kubectl get ep
+
+Check if kube-proxy is up and running on the node, as kube proxy is responsible to install required nat rules.
+ps -ef  | grep kube-proxy
+
